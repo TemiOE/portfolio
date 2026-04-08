@@ -2,12 +2,12 @@
   --bg: #140f23;
   --bg-deep: #0b0814;
   --bg-soft: #1d1730;
-  --surface: rgba(31, 24, 53, 0.72);
-  --surface-strong: rgba(41, 31, 72, 0.9);
-  --surface-card: rgba(27, 21, 46, 0.96);
+  --surface: rgba(21, 31, 36, 0.72);
+  --surface-strong: rgba(24, 39, 46, 0.9);
+  --surface-card: rgba(17, 28, 35, 0.96);
   --text: #f6f1ff;
-  --muted: #c6bbec;
-  --line: rgba(194, 164, 255, 0.16);
+  --muted: #bfd7d1;
+  --line: rgba(111, 211, 182, 0.16);
   --accent: #3ecf8e;
   --accent-strong: #5de2c2;
   --accent-soft: #1e8f74;
@@ -179,7 +179,7 @@ h3 {
   padding: 34px;
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
-  background: linear-gradient(180deg, rgba(34, 25, 58, 0.8), rgba(20, 15, 35, 0.88));
+  background: linear-gradient(180deg, rgba(22, 37, 45, 0.82), rgba(13, 21, 27, 0.9));
   backdrop-filter: blur(16px);
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -322,8 +322,8 @@ h3 {
   position: relative;
   padding: 24px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(180deg, rgba(49, 37, 83, 0.86), rgba(23, 18, 40, 0.94));
-  border: 1px solid rgba(194, 164, 255, 0.16);
+  background: linear-gradient(180deg, rgba(27, 52, 60, 0.88), rgba(14, 25, 31, 0.94));
+  border: 1px solid rgba(111, 211, 182, 0.16);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
@@ -363,7 +363,7 @@ h3 {
 dt,
 .contact-card span,
 .tools-key-label {
-  color: var(--muted);
+  color: #bfd7d1;
 }
 
 .profile-title {
@@ -419,8 +419,8 @@ dt,
 .tools-key,
 .timeline-content,
 .reading-list {
-  background: linear-gradient(180deg, rgba(32, 41, 72, 0.9), rgba(16, 24, 42, 0.96));
-  border: 1px solid rgba(93, 226, 194, 0.14);
+  background: linear-gradient(180deg, rgba(22, 42, 49, 0.92), rgba(13, 24, 30, 0.97));
+  border: 1px solid rgba(111, 211, 182, 0.14);
 }
 
 .skill-card,
@@ -455,7 +455,7 @@ dt,
 
 .tool-chip,
 .tool-link {
-  border: 1px solid rgba(93, 226, 194, 0.16);
+  border: 1px solid rgba(111, 211, 182, 0.16);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.04);
   color: var(--text);
