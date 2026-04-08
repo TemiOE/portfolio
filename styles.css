@@ -93,9 +93,9 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 18px;
+  gap: 12px;
   margin: 18px 0 34px;
-  padding: 14px 18px;
+  padding: 12px 16px 12px 18px;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(18, 13, 31, 0.72);
@@ -129,13 +129,16 @@ h3 {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 6px;
   color: var(--muted);
   font-weight: 600;
+  font-size: 0.96rem;
 }
 
 .site-nav a {
   position: relative;
+  padding: 10px 12px;
+  border-radius: 999px;
 }
 
 .site-nav a::after {
@@ -202,10 +205,10 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.3fr 0.9fr;
-  gap: 28px;
-  min-height: 78vh;
-  align-items: end;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 34px;
+  min-height: 72vh;
+  align-items: center;
 }
 
 .hero::after {
@@ -261,30 +264,47 @@ h3 {
 
 .hero h1 {
   max-width: 10ch;
-  font-size: clamp(3.6rem, 7vw, 6.8rem);
-  margin-bottom: 22px;
+  font-size: clamp(3.15rem, 6.2vw, 5.8rem);
+  margin-bottom: 18px;
   text-wrap: balance;
 }
 
 .hero-summary {
-  max-width: 58ch;
-  font-size: 1.08rem;
+  max-width: 50ch;
+  font-size: 1rem;
   color: var(--muted);
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 28px;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.hero-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.hero-note span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(111, 211, 182, 0.12);
+  color: #d7eeea;
+  font-size: 0.88rem;
+  font-weight: 700;
 }
 
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 50px;
-  padding: 14px 20px;
+  min-height: 46px;
+  padding: 12px 18px;
   border-radius: 999px;
   font-weight: 800;
   transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -623,14 +643,14 @@ dd {
 }
 
 .contact-grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
   margin-top: 26px;
 }
 
 .contact-card {
   display: flex;
   flex-direction: column;
-  min-height: 132px;
+  min-height: 118px;
   justify-content: center;
 }
 
@@ -735,7 +755,11 @@ dd {
 
   .hero h1 {
     max-width: 12ch;
-    font-size: clamp(2.9rem, 14vw, 4.4rem);
+    font-size: clamp(2.7rem, 13vw, 4rem);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
 
   .site-footer {
